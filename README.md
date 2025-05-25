@@ -38,11 +38,18 @@ Traders in prop firm environments (Apex, Topstep, MyFundedFutures, etc.) often f
 
 ---
 
+## Project Roadmap
+
+Track progress: [Reflex GitHub Project Board](https://github.com/garrettm19/reflex/projects)
+
+---
+
 ## File Structure Overview
 
 - `src/` – Source code (Electron, React, Overlay, Zustand, DB)
-- `docs/` – Full SDLC documentation (all 8 phases)
-- `demo/` – Screenshots and demo videos
+- `docs/` – Full SDLC documentation (Phases 01–11)
+- `demo/` – Screenshots and demo video assets
+- `.github/` – Templates and contribution files
 - `README.md` – Public project overview
 
 ---
@@ -52,7 +59,7 @@ Traders in prop firm environments (Apex, Topstep, MyFundedFutures, etc.) often f
 This project is in active development. The MVP scaffold will follow this setup:
 
 1. Clone this repository  
-   `git clone https://github.com/your-username/reflex.git`
+   `git clone https://github.com/garrettm19/reflex.git`
 
 2. Navigate into the project directory  
    `cd reflex`
@@ -118,6 +125,7 @@ This project follows a full software development lifecycle (SDLC). Each phase is
 - [08 – Demo and Reflection](docs/08_demo_and_reflection.md)
 - [09 – User Stories](docs/09_user_stories.md)
 - [10 – Metrics & Success Plan](docs/10_metrics_and_success.md)
+- [11 – User Persona & Flow](docs/11_user_persona_and_flow.md)
 
 ---
 
@@ -142,6 +150,6 @@ MIT License
 
 ## Author
 
-Built by Mason Garrett.  
+Built by Mason Garrett  
 Contact: mgarrett620@gmail.com  
-GitHub: garrettm19
+GitHub: [garrettm19](https://github.com/garrettm19)
