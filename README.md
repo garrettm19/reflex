@@ -131,8 +131,8 @@ This project follows a full software development lifecycle (SDLC). Each phase is
 
 ## Next Steps
 
-- [ ] Scaffold Electron + React with overlay window
-- [ ] Add mascot idle and feedback animations
+- [x] Scaffold Electron + React with overlay window
+- [x] Add mascot idle and feedback animations
 - [ ] Implement SQLite journaling backend
 - [ ] Add XP and badge logic
 - [ ] Connect GPT feedback to journal entries

@@ -1,9 +1,10 @@
 import Layout from './components/Layout';
+import CheckIn from './components/CheckIn';
 
 export default function App() {
   return (
     <Layout>
-      <div className="text-xl">Your Reflex dashboard will appear here.</div>
+      <CheckIn />
     </Layout>
   );
 }
