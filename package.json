@@ -49,5 +49,8 @@
     "vite": "^6.3.5",
     "wait-on": "^8.0.3",
     "zustand": "^5.0.5"
+  },
+  "dependencies": {
+    "lottie-react": "^2.4.1"
   }
 }

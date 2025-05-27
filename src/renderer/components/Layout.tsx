@@ -1,8 +1,9 @@
-import React from 'react';
+import React from 'react'
+import Mascot from './Mascot'
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="flex h-screen bg-zinc-900 text-white">
+    <div className="flex h-screen bg-zinc-900 text-white relative">
       {/* Sidebar */}
       <aside className="w-64 bg-zinc-800 p-4 border-r border-zinc-700 flex flex-col">
         <h1 className="text-2xl font-bold mb-8">Reflex</h1>
@@ -30,6 +31,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           {children}
         </section>
       </main>
+
+      {/* Floating Mascot */}
+      <Mascot />
     </div>
-  );
+  )
 }

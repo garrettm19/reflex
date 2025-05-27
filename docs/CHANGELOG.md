@@ -1,5 +1,17 @@
 # Changelog
 
+## [v0.1.4] – 2025-05-26
+- Implemented Journal Entry feature
+  - Added `JournalForm.tsx` for logging trades with R:R, result, and notes
+  - Created Zustand store `useJournalStore.ts` to manage journal entry state
+  - Included success confirmation UI and form validation
+
+## [v0.1.3] – 2025-05-26
+- Implemented Check-In UX flow
+  - Added `CheckIn.tsx` component to prompt daily discipline check
+  - Created Zustand store `useCheckInStore.ts` to log daily check-in data
+  - Prevents duplicate check-ins and stores state per session
+
 ## [v0.1.2] – 2025-05-26
 - Fully configured and verified working Electron + Vite + React + TypeScript stack
 - Switched to Electron-based launcher using `esbuild-register` for TypeScript support
