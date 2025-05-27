@@ -1,5 +1,11 @@
 # Changelog
 
+## [v0.1.5] – 2025-05-26
+- Implemented mascot system with Lottie-based animations
+- Added Zustand store to manage mascot state and speech bubble
+- Prevented mascot from blocking UI with `pointer-events-none`
+- Plugged mascot into layout and ready for behavioral triggers
+
 ## [v0.1.4] – 2025-05-26
 - Implemented Journal Entry feature
   - Added `JournalForm.tsx` for logging trades with R:R, result, and notes
